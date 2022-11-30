@@ -90,10 +90,11 @@ const data = [
 const sneakers = document.getElementById("sneakers");
 // forEach() method calls a function for each element in an array
 // createElement für neue DOM-Elemente
-data.forEach(sneakers) => {
-const newDiv = document.createElement("div");
-  const sizes = document.createElement("div");
-  const imgSneakers = document.createElement("img");
+data.forEach(sneakers) => 
+{
+const newDiv = document.createElement("");
+  const sizes = document.createElement("");
+  const imgSneakers = document.createElement("");
   const name = document.createElement("h4");
   const price = document.createElement("p");
   const brand = document.createElement("p");
@@ -108,9 +109,6 @@ sneakers.appendChild(newDiv);
   sneaker.appendChild(div);
 img.src = item.img;
   div.appendChild(img);
-
-
-
 
 
   const node = document.createElement("li");
